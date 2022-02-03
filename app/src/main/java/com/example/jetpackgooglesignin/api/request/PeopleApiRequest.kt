@@ -14,5 +14,4 @@ interface PeopleApiRequest {
         @Query("personFields") contactsData: String
     ): Response<Contacts>
 
-
 }
